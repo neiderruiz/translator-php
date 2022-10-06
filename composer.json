@@ -1,0 +1,21 @@
+{
+    "name": "neiderruiz/translator-php",
+    "description": "translate text",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "neiderruiz\\translatorphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Neider Ruiz",
+            "email": "57574910+neiderruiz@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
