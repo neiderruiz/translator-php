@@ -208,9 +208,13 @@ class BaseTranslate
         $rand = array_rand($this->servicesTranslate);
         $service = $this->servicesTranslate[$rand];
         $client = new Client(array('curl' => array(CURLOPT_SSL_VERIFYPEER => false)));
-        $response = $client->request('GET', "https://$service/translate_a/single?client=gtx&sl=$locale&tl=$dest&dt=t&q=" . urlencode($text), []);
-        if ($response->getStatusCode() === 200) {
-            return json_decode($response->getBody()->getContents(), true)[0][0][0];
+        try {
+            $response = $client->request('GET', "https://$service/translate_a/single?client=gtx&sl=$locale&tl=$dest&dt=t&q=" . urlencode($text), []);
+            if ($response->getStatusCode() === 200) {
+                return json_decode($response->getBody()->getContents(), true)[0][0][0];
+            }
+        } catch (\Throwable $th) {
+            return null;
         }
     }
 }
