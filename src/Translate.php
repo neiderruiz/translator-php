@@ -4,7 +4,7 @@ namespace neiderruiz\translatorphp;
 
 class Translate
 {
-    public function translate(string $message, string $destination, string $entryLanguage = 'en'): string
+    public function translate(string $message, string $destination, string $entryLanguage = 'en'): ?string
     {
         $translateBase = new BaseTranslate();
 
