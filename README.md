@@ -4,7 +4,7 @@
 composer require neiderruiz/translator-php
 ```
 
-# how usign translator
+# how using translator
 
 ```
 // import pachage
