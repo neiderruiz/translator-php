@@ -1,14 +1,14 @@
 ## Translate text php
 
 ```
-composer require neiderruiz/translator-php
+composer require neidercode/translator-php
 ```
 
 # how using translator
 
 ```
 // import pachage
-use neiderruiz\translatorphp\Translate;
+use neidercode\translatorphp\Translate;
 
 // run instance of translator
 $traductor = new Translate();

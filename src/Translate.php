@@ -1,6 +1,6 @@
 <?php
 
-namespace neiderruiz\translatorphp;
+namespace neidercode\translatorphp;
 
 class Translate
 {

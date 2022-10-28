@@ -1,18 +1,18 @@
 {
-    "name": "neiderruiz/translator-php",
+    "name": "neidercode/translator-php",
     "description": "translate text",
     "type": "library",
     "license": "MIT",
     "version": "1.0",
     "autoload": {
         "psr-4": {
-            "neiderruiz\\translatorphp\\": "src/"
+            "neidercode\\translatorphp\\": "src/"
         }
     },
     "authors": [
         {
             "name": "Neider Ruiz",
-            "email": "57574910+neiderruiz@users.noreply.github.com"
+            "email": "57574910+neidercode@users.noreply.github.com"
         }
     ],
     "require": {

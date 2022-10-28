@@ -1,8 +1,8 @@
 <?php
 
-namespace neiderruiz\translatorphp\Traits;
+namespace neidercode\translatorphp\Traits;
 
-use neiderruiz\translatorphp\Translate;
+use neidercode\translatorphp\Translate;
 
 trait TranslateTrait
 {
