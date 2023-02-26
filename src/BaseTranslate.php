@@ -1,6 +1,6 @@
 <?php
 
-namespace neidercode\translatorphp;
+namespace neiderruiz\translatorphp;
 
 use GuzzleHttp\Client;
 
